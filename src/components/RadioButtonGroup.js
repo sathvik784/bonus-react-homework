@@ -9,7 +9,6 @@ import './RadioButtonGroup.css';
 const RadioButtonGroup = () => {
   const [selectedNumber, setSelectedNumber] = useState(1);
 
-/* Don't worry about this function, changes color when a radio is clicked */
   const handleRadioButtonClick = (event) => {
     /* TODO: use the hook from line 10 to change the selectedNumber */
     /* hint: you can get the new number with event.target.value */
