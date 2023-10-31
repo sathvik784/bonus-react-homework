@@ -1,0 +1,30 @@
+/* Styles for the RadioButtonGroup component */
+.radio-button-group {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Styles for each radio button container */
+  .radio-button-container {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  /* Individual background colors for each radio button container */
+  .radio-button-container:nth-child(1) { background-color: #ff4040; }
+  .radio-button-container:nth-child(2) { background-color: #5699ff; }
+  .radio-button-container:nth-child(3) { background-color: #4fff4f; }
+  .radio-button-container:nth-child(4) { background-color: #38ffe4; }
+  .radio-button-container:nth-child(5) { background-color: #b649ff; }
+  
+  /* Styles for the radio buttons and labels */
+  .radio-button-container input {
+    margin-left: 5px;
+  }
+  
